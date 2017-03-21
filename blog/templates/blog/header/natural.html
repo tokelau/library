@@ -1,0 +1,18 @@
+{% extends 'blog/base.html' %}
+
+{% block content %}
+{% for book in books %}
+    <div class="list_book">
+    <div class="book">
+        <div>
+            <img src="#">
+        </div>
+        <div>
+            <h1><a href="">{{ book.title }}</a></h1>
+            <p>Автор: 
+            <p>Год издания:
+        </div>
+    </div>
+</div>
+{% endfor %}
+{% endblock %}
